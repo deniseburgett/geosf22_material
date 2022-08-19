@@ -65,7 +65,7 @@ Follow instructions (depending on your operating system) for installing Bash, Gi
 ```cat ~/.ssh/id_rsa.pub```
 ... and copy the entire output.
 
-6.) Now, you need to add this to your GitHub profile. In Github, click on the pulldown (top right) to view your profile and choose settings then SSH and GPG keys.
+6.) Now, you need to add this to your GitHub profile. In Github, click on the pulldown (top right) to view your profile and choose "Settings" then "SSH and GPG" keys.
 
 7.) Click on New SSH key, paste your RSA public key there and save.
 
