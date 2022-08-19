@@ -34,6 +34,21 @@ git commit -m "HW1 submitted!!"
 git push
 ```
 
+However, an even saver routine, while working is:
+
+cd ~./geosf22_<pid>
+git pull
+<do work>
+git pull
+git add ./*ipynb
+git add ./*pdf
+git commit -m "homework submission"
+git push
+  
+If you want to read more about this:
+
+https://services.github.com/on-demand/downloads/github-git-cheat-sheet/
+
 
 ---
 # Setup at the beginning of the semester
