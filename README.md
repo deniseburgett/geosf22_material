@@ -96,7 +96,7 @@ Basically, we need to:
 - Configure Git on the computer to allow pushing to your personal repository (this is how you submit homework)
 
 
-## A Setting up GitHub
+## A: Setting up GitHub
 Part A instructions include creating your GitHub account and homework repository.
 
 ### 1. GitHub account
@@ -119,7 +119,7 @@ Make your repository private.
 On GitHub, add me as a collaborator under 'Settings' > 'Manage access' of your repository. Please use my GitHub account name 'GeoPythonVT' or my e-mail address 'swerth@vt.edu'.
   
 
-## B Setting up your Computer 
+## B: Setting up your Computer 
 Part B instructions will set up your GitHub connection with your computer, after you have already created your GitHub account and repository. These include:
 
 - Install Bash and Git
