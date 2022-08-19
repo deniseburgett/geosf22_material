@@ -52,7 +52,7 @@ This instructions are for setting up your GitHub connection with your computer, 
 Follow instructions (depending on your operating system) for installing Bash, Git and Python/Anaconda on this website: https://annajiat.github.io/2021-07-19-colorado-online/
 
 ### Configure your ssh keys
-1.) If you have a key, skip to point 5.
+1.) If you know your SSH key, skip to point 5.
 
 2.) Open a terminal on your computer, or in Jupyter Lab (click on + to the left and then on Terminal).
 
