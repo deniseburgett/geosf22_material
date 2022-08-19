@@ -1,5 +1,18 @@
 # Geo Data Science with Python, Fall 2022
 
+## Submitting homework
+
+To be able to submit homework, you have to first follow the initial GitHub setup below.
+
+After that, whenever you want to submit homework, you need to use 4 commands (ok, really 3, but the first one is a good habit). Execute all of them, each time you make changes to your home work:
+```
+git pull
+## assuming your homwork was saved as HW1_pid.ipynb
+git add HW1_pid.ipynb
+git commit -m "HW1 submitted!!"
+git push
+```
+---
 ## Cloning course material to your computer
 The course material is available in a public repository (no SSH connection necessary). It will be updated regularily.
 
@@ -22,15 +35,4 @@ Alternatively, you can download the material directly from the repositories webs
 https://github.com/GeoPythonVT/geosf22_material
 
 
-
-## Submitting homework
-
-To submit homework, you need to use 4 commands (ok, really 3, but the first one is a good habit). Execute all of them, each time you make changes to your home work:
-```
-git pull
-## assuming your homwork was saved as HW1_pid.ipynb
-git add HW1_pid.ipynb
-git commit -m "HW1 submitted!!"
-git push
-```
-
+# At the beginning of the semester
