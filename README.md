@@ -116,7 +116,7 @@ Make your repository private.
 
 #### 3. Add me as collaborator to your repository
 
-On GitHub, add me as a collaborator under 'Settings' > 'Manage access' of your repository. Please use my GitHub account name 'GeoPythonVT' or my e-mail address 'swerth@vt.edu'.
+On GitHub, click on your homework repository. To add me as a collaborator, navigate to the repository's 'Settings' > 'Collaborators' > 'Manage access'. Use the "Add people" button to add my GitHub account name 'GeoPythonVT' or my e-mail address 'swerth@vt.edu'.
   
 
 ## B: Setting up your Computer 
