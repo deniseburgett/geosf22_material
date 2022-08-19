@@ -54,7 +54,7 @@ Follow instructions (depending on your operating system) for installing Bash, Gi
 ### Configure your ssh keys
 1.) If you know your SSH key, skip to point 5.
 
-2.) Open a terminal on your computer, or in Jupyter Lab (click on + to the left and then on Terminal).
+2.) Open a Git Bash (Windows) or terminal (MacOS) on your computer, or in Anaconda/Jupyter Lab (click on + to the left and then on Terminal).
 
 3.) In the terminal window, type:
 ```ssh-keygen```
