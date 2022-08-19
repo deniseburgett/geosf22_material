@@ -12,7 +12,7 @@ git add HW1_pid.ipynb
 git commit -m "HW1 submitted!!"
 git push
 ```
----
+
 ## Cloning course material to your computer
 The course material is available in a public repository (no SSH connection necessary). It will be updated regularily.
 
@@ -35,4 +35,42 @@ Alternatively, you can download the material directly from the repositories webs
 https://github.com/GeoPythonVT/geosf22_material
 
 
-# At the beginning of the semester
+---
+# Setup at the beginning of the semester
+
+## 1: Create GitHub account and repository
+
+
+## 2: GitHub setup on your computer
+
+This instructions are for setting up your GitHub connection with your computer, after you have already created your GitHub account and repository.
+
+- Install Bash and Git
+- Configure Git locally to allow pushing to your personal repository (this is how you submit homework)
+
+# Install Bash and Git on your computer
+Follow instructions (depending on your operating system) for installing Bash, Git and Python/Anaconda on this website: https://annajiat.github.io/2021-07-19-colorado-online/
+
+# Configure your ssh keys
+1.) If you have a key, skip to point 5.
+2.) Open a terminal on your computer, or in Jupyter Lab (click on + to the left and then on Terminal).
+3.) In the terminal window, type:
+```ssh-keygen```
+4.) Ideally you will use a short passphrase different from your pid password, but can simply hit enter for most (or all prompts).
+5.) Into the terminal, type:
+```cat ~/.ssh/id_rsa.pub```
+... and copy the entire output.
+6.) Now, you need to add this to your GitHub profile. In Github, click on the pulldown (top right) to view your profile and choose settings then SSH and GPG keys.
+7.) Click on New SSH key, paste your RSA public key there and save.
+
+#Configure your local Git
+To do this, type the following in your Terminal, or the Jupyter QTConsole:
+
+git config --global user.email <you@example.com>  
+git config --global user.name <GitHubUserName> 
+
+
+#Clone the new repository to your local computer
+In the terminal window, change directories to where you want your coursework to live, for instance cd ~/Documents/. Then pull your repository onto your computer:
+
+```git clone git@github.com:<GitHubUserName>/geosf21_<pid>.git```
