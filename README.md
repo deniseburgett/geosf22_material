@@ -106,7 +106,7 @@ Sign up for a GitHub account and remember your password.
 
 On GitHub, create a new, empty repository (Repositories > New) named:
 
-```geosf21_<pid>```
+```geosf22_<pid>```
 
 (pid should be your VT PID). For that, click on the 'New' button.
 
