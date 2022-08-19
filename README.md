@@ -99,10 +99,10 @@ Basically, we need to:
 ## A: Setting up GitHub
 Part A instructions include creating your GitHub account and homework repository.
 
-#### GitHub account
+#### 1. GitHub account
 Sign up for a GitHub account and remember your password.
 
-#### Create your homework repository
+#### 2. Create your homework repository
 
 On GitHub, create a new, empty repository (Repositories > New) named:
 
@@ -114,7 +114,7 @@ Don’t add a readme file at this time.
 
 Make your repository private.
 
-#### Add me as collaborator to your repository
+#### 3. Add me as collaborator to your repository
 
 On GitHub, add me as a collaborator under 'Settings' > 'Manage access' of your repository. Please use my GitHub account name 'GeoPythonVT' or my e-mail address 'swerth@vt.edu'.
   
@@ -125,10 +125,10 @@ Part B instructions will set up your GitHub connection with your computer, after
 - Install Bash and Git
 - Configure Git locally to allow pushing to your personal repository (this is how you submit homework)
 
-#### Install Bash and Git on your computer (skip this step on the lab computers)
+#### 1. Install Bash and Git on your computer (skip this step on the lab computers)
 Follow instructions (depending on your operating system) for installing Bash, Git and Python/Anaconda on this website: https://annajiat.github.io/2021-07-19-colorado-online/
 
-#### Configure your ssh keys
+#### 2. Configure your ssh keys
 1.) If you know your SSH key, skip to point 5.
 
 2.) Open a Git Bash (Windows) or terminal (MacOS) on your computer, or in Anaconda/Jupyter Lab (click on + to the left and then on Terminal).
@@ -146,7 +146,7 @@ Follow instructions (depending on your operating system) for installing Bash, Gi
 
 7.) Click on New SSH key, paste your RSA public key there and save.
 
-#### Configure your local Git
+#### 3. Configure your local Git
 To do this, type the following in your Terminal, or the Jupyter QTConsole:
 
 ```
@@ -154,7 +154,7 @@ git config --global user.email <you@example.com>
 git config --global user.name <GitHubUserName> 
 ```
 
-#### Clone the new repository to your local computer
+#### 4. Clone the new repository to your local computer
 In the terminal window, change directories to where you want your coursework to live, for instance cd ~/Documents/. Then pull your repository onto your computer:
 
 ```git clone git@github.com:<GitHubUserName>/geosf22_<pid>.git```
@@ -163,7 +163,7 @@ Enter into your repository, which is currently empty:
 
 ```cd geosf22_<pid>```
 
-#### Push your first work to your repository
+#### 5. Push your first work to your repository
 In the terminal, enter the following commands to create new content for your repository and send it to GitHub:
 
 ```
