@@ -8,7 +8,7 @@ In a console/terminal, change directories to where you want the course material 
 
 ```
 cd $home
-git clone https://github.com/GeoPythonVT/geosf21_material.git
+git clone https://github.com/GeoPythonVT/geosf22_material.git
 ```
 You won't be able to push any content to this repository.
 
