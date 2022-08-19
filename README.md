@@ -88,17 +88,42 @@ https://services.github.com/on-demand/downloads/github-git-cheat-sheet/
 ---
 # Setup at the beginning of the semester
 
-## A Create GitHub account and repository
+Basically, we need to:
+
+- Configure GitHub and invite me as collaborator to your homework repository (so your homework can be graded).
+- Configure Git on the computer to allow pushing to your personal repository (this is how you submit homework)
 
 
-## B GitHub setup on your computer
+## A Setting up GitHub
+Part A instructions include creating your GitHub account and homework repository.
 
-This instructions are for setting up your GitHub connection with your computer, after you have already created your GitHub account and repository.
+### 1. GitHub account
+Sign up for a GitHub account and remember your password.
+
+### 2. Create your homework repository
+
+On GitHub, create a new, empty repository (Repositories > New) named:
+
+```geosf21_<pid>```
+
+(pid should be your VT PID). For that, click on the 'New' button.
+
+Don’t add a readme file at this time.
+
+Make your repository private.
+
+### 3. Add me as collaborator to your repository
+
+On GitHub, add me as a collaborator under 'Settings' > 'Manage access' of your repository. Please use my GitHub account name 'GeoPythonVT' or my e-mail address 'swerth@vt.edu'.
+  
+
+## B Setting up your Computer 
+Part B instructions will set up your GitHub connection with your computer, after you have already created your GitHub account and repository. These include:
 
 - Install Bash and Git
 - Configure Git locally to allow pushing to your personal repository (this is how you submit homework)
 
-### Install Bash and Git on your computer
+### Install Bash and Git on your computer (skip this step on the lab computers)
 Follow instructions (depending on your operating system) for installing Bash, Git and Python/Anaconda on this website: https://annajiat.github.io/2021-07-19-colorado-online/
 
 ### Configure your ssh keys
@@ -122,11 +147,31 @@ Follow instructions (depending on your operating system) for installing Bash, Gi
 ### Configure your local Git
 To do this, type the following in your Terminal, or the Jupyter QTConsole:
 
+```
 git config --global user.email <you@example.com>  
 git config --global user.name <GitHubUserName> 
-
+```
 
 ### Clone the new repository to your local computer
 In the terminal window, change directories to where you want your coursework to live, for instance cd ~/Documents/. Then pull your repository onto your computer:
 
-```git clone git@github.com:<GitHubUserName>/geosf21_<pid>.git```
+```git clone git@github.com:<GitHubUserName>/geosf22_<pid>.git```
+
+Enter into your repository, which is currently empty:
+
+```cd geosf22_<pid>```
+
+### Push your first work to your repository
+In the terminal, enter the following commands to create new content for your repository and send it to GitHub:
+
+```
+echo "# My Homework for Geos Python Fall 2022" >> README.md
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+```
+
+If this set of commands is successful you are all setup and have made your first commit. If you refresh the Github page, you should see your README.
+
+Note: You will need to repeat only some of these commands, when you submit your homework. These are listed at the top of this README page.
