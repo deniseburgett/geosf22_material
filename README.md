@@ -34,7 +34,31 @@ git commit -m "HW1 submitted!!"
 git push
 ```
 
-However, an even saver routine, while working is:
+
+## Submitting homework explained
+
+Homework submissions will be accomplished through GitHub. At this point, I am assuming you have worked through the Git Configuration document and successfully added the README file via the command line.
+
+Submitting homework will involve adding your homework to the tracked files, committing changes, and finally pushing your changes to your remote repo.
+
+After you have completed your assignment and saved your final knitted document, in the terminal, do the following:
+
+### Make sure your local copy is synced with your remote copy
+```git pull```
+
+### Add your homework files to the list of tracked files
+```git add <your homework file>```
+
+### Commit changes you care about
+```git commit -m "final version of homework"```
+
+### Push your homework to your remote repo
+```git push```
+
+
+### Basic workflow in summary:
+
+As you work on your homework, you can and should add/commit/push often to save your work! So, save routine, while working on your homework is:
 
 ```
 cd ~./geosf22_<pid>
@@ -43,11 +67,20 @@ git pull
 git pull
 git add ./*ipynb
 git add ./*pdf
-git commit -m "homework submission"
+git commit -m "final version of homework"
 git push
 ```
+  
+Once you know how to use the Jupyter Notebooks, uyou can also copy the following code cell into a Jupyter Notebook file in your homework repository, and use it to submit homework from that Notebook. The Exclamation Mark allows you to execute shell commands from within a Jupyter Notebook.
 
-If you want to read more about this:
+```
+! git pull
+! git add <filename>.ipynb
+! git commit -m "final version of homework"
+! git push
+```
+
+And if you want to learn more about git, check out the docs and the cheatsheet:
 
 https://services.github.com/on-demand/downloads/github-git-cheat-sheet/
 
