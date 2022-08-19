@@ -1,4 +1,4 @@
-# Geo Data Science with Python, Fall 2021
+# Geo Data Science with Python, Fall 2022
 
 ## Submitting homework
 
