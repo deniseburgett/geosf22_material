@@ -170,8 +170,7 @@ In the terminal, enter the following commands to create new content for your rep
 echo "# My Homework for Geos Python Fall 2022" >> README.md
 git add README.md
 git commit -m "first commit"
-git branch -M main
-git push -u origin main
+git push
 ```
 
 If this set of commands is successful you are all setup and have made your first commit. If you refresh the Github page, you should see your README.
