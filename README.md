@@ -1,6 +1,7 @@
 # Geo Data Science with Python, Fall 2022
 
-## Cloning course material to your computer
+---
+# Cloning course material to your computer
 The course material is available in a public repository (no setup or SSH connection necessary). It will be updated regularily.
 
 #### Initial download
@@ -21,7 +22,8 @@ git pull
 Alternatively, you can download the material directly from the repositories website:
 https://github.com/GeoPythonVT/geosf22_material
 
-## Submitting homework
+---
+# Submitting homework
 
 To be able to submit homework, you have to first perform the "Setup at the beginning of the semester" provided below.
 
