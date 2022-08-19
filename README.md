@@ -63,7 +63,7 @@ Follow instructions (depending on your operating system) for installing Bash, Gi
 
 5.) Into the Git Bash or terminal, type:
 ```cat ~/.ssh/id_rsa.pub```
-... and copy the entire output. (Note: this works also in a Windows command window. The Windows equivalent of "cat" command is "type", and you will have to replace "/" with "\".)
+... and copy the entire output. (Note: this works also in a Windows command window. The Windows equivalent of the "cat" command is "type", and you will have to replace "/" with "\".)
 
 6.) Now, you need to add this to your GitHub profile. In Github, click on the pulldown (top right) to view your profile and choose "Settings" then "SSH and GPG" keys.
 
