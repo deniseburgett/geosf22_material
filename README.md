@@ -2,7 +2,7 @@
 
 ## Submitting homework
 
-To be able to submit homework, you have to first follow the initial GitHub setup below.
+To be able to submit homework, you have to first perform the "Setup at the beginning of the semester" provided below.
 
 After that, whenever you want to submit homework, you need to use 4 commands (ok, really 3, but the first one is a good habit). Execute all of them, each time you make changes to your home work:
 ```
