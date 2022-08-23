@@ -122,7 +122,7 @@ On GitHub, click on your homework repository. To add me as a collaborator, navig
 ## B: Setting up your Computer 
 Part B instructions will set up your GitHub connection with your computer, after you have already created your GitHub account and repository. These include:
 
-- Install Bash and Git
+- Install Python Anaconda, Bash and Git
 - Configure Git locally to allow pushing to your personal repository (this is how you submit homework)
 
 #### 1. Install Bash and Git on your computer (skip this step on the lab computers)
