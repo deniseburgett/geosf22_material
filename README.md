@@ -143,7 +143,7 @@ Part B instructions will set up your GitHub connection with your computer, after
 Follow instructions (depending on your operating system) for installing Bash, Git and Python/Anaconda on this website: https://annajiat.github.io/2021-07-19-colorado-online/
 
 
-### 2. Install Python (skip this step on the lab computers) 
+#### 2. Install Python (skip this step on the lab computers) 
 Open the bash terminal/console and execute the following commands one by one, to create a new python environment and install all packages needed for the class. This may take a while and you need to confirm the installation.
 
 ```
