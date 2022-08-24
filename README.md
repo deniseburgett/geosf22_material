@@ -11,14 +11,17 @@ In a console/terminal, change directories to where you want the course material 
 cd $home
 git clone https://github.com/GeoPythonVT/geosf22_material.git
 ```
+
 You won't be able to push any content to this repository.
 
 #### Update
 Material will be added to the repository regularily. You can update the repository for new content (without repeatedly downloading the entire repository), whenever there is new material available. For that, enter the folder 'geosf22_material' on your computer and type in the terminal/console:
+
 ```
 cd $home/geosf22_material
 git pull
 ```
+
 Alternatively, you can download the material directly from the repositories website:
 https://github.com/GeoPythonVT/geosf22_material
 
@@ -46,16 +49,24 @@ Submitting homework will involve adding your homework to the tracked files, comm
 After you have completed your assignment and saved your final knitted document, in the terminal, do the following:
 
 ### Make sure your local copy is synced with your remote copy
-```git pull```
+```
+git pull
+```
 
 ### Add your homework files to the list of tracked files
-```git add <your homework file>```
+```
+git add <your homework file>
+```
 
 ### Commit changes you care about
-```git commit -m "final version of homework"```
+```
+git commit -m "final version of homework"
+```
 
 ### Push your homework to your remote repo
-```git push```
+```
+git push
+```
 
 
 ### Basic workflow in summary:
@@ -93,7 +104,7 @@ https://services.github.com/on-demand/downloads/github-git-cheat-sheet/
 Basically, we need to:
 
 - Configure GitHub and invite me as collaborator to your homework repository (so your homework can be graded).
-- Configure Git on the computer to allow pushing to your personal repository (this is how you submit homework)
+- Configure Git on your computer to allow pushing to your personal repository (this is how you submit homework)
 
 
 ## A: Setting up GitHub
@@ -106,7 +117,9 @@ Sign up for a GitHub account and remember your password.
 
 On GitHub, create a new, empty repository (Repositories > New) named:
 
-```geosf22_<pid>```
+```
+geosf22_<pid>
+```
 
 (pid should be your VT PID). For that, click on the 'New' button.
 
@@ -123,23 +136,36 @@ On GitHub, click on your homework repository. To add me as a collaborator, navig
 Part B instructions will set up your GitHub connection with your computer, after you have already created your GitHub account and repository. These include:
 
 - Install Python Anaconda, Bash and Git
+- Create new conda environment and install Python packages
 - Configure Git locally to allow pushing to your personal repository (this is how you submit homework)
 
-#### 1. Install Bash and Git on your computer (skip this step on the lab computers)
+#### 1. Install Anaconda, Bash and Git on your computer (skip this step on the lab computers)
 Follow instructions (depending on your operating system) for installing Bash, Git and Python/Anaconda on this website: https://annajiat.github.io/2021-07-19-colorado-online/
 
-#### 2. Configure your ssh keys
+
+### 2. Install Python (skip this step on the lab computers) 
+```
+conda create --name geosf22
+conda activate geosf22
+conda install -c conda-forge boost python=3.9 nb_conda geopandas jupyterlab scipy cartopy scikit-learn basemap statsmodels netcdf4 hdf5 pywget lxml pydap pywavelets seaborn xarray
+```
+
+#### 3. Configure Git locally: SSH keys
 1.) If you know your SSH key, skip to point 5.
 
 2.) Open a Git Bash (Windows) or terminal (MacOS) on your computer, or in Anaconda/Jupyter Lab (click on + to the left and then on Terminal).
 
 3.) In the terminal window, type:
-```ssh-keygen```
+```
+ssh-keygen
+```
 
 4.) Ideally you will use a short passphrase different from your pid password, but can simply hit enter for most (or all prompts).
 
 5.) Into the Git Bash or terminal, type:
-```cat ~/.ssh/id_rsa.pub```
+```
+cat ~/.ssh/id_rsa.pub
+```
 ... and copy the entire output. (Note: this works also in a Windows command window. The Windows equivalent of the "cat" command is "type", and you will have to replace "/" with "\".)
 
 6.) Now, you need to add this to your GitHub profile. In Github, click on the pulldown (top right) to view your profile and choose "Settings" then "SSH and GPG" keys.
@@ -157,11 +183,15 @@ git config --global user.name <GitHubUserName>
 #### 4. Clone the new repository to your local computer
 In the terminal window, change directories to where you want your coursework to live, for instance cd ~/Documents/. Then pull your repository onto your computer:
 
-```git clone git@github.com:<GitHubUserName>/geosf22_<pid>.git```
+```
+git clone git@github.com:<GitHubUserName>/geosf22_<pid>.git
+```
 
 Enter into your repository, which is currently empty:
 
-```cd geosf22_<pid>```
+```
+cd geosf22_<pid>
+```
 
 #### 5. Push your first work to your repository
 In the terminal, enter the following commands to create new content for your repository and send it to GitHub:
