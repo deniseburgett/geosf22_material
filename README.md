@@ -144,6 +144,8 @@ Follow instructions (depending on your operating system) for installing Bash, Gi
 
 
 ### 2. Install Python (skip this step on the lab computers) 
+Open the bash terminal/console and execute the following commands one by one, to create a new python environment and install all packages needed for the class. This may take a while and you need to confirm the installation.
+
 ```
 conda create --name geosf22
 conda activate geosf22
