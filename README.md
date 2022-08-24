@@ -174,7 +174,7 @@ cat ~/.ssh/id_rsa.pub
 
 7.) Click on New SSH key, paste your RSA public key there and save.
 
-#### 3. Configure your local Git
+#### 4. Configure your local Git
 To do this, type the following in your Terminal, or the Jupyter QTConsole:
 
 ```
@@ -182,7 +182,7 @@ git config --global user.email <you@example.com>
 git config --global user.name <GitHubUserName> 
 ```
 
-#### 4. Clone the new repository to your local computer
+#### 5. Clone the new repository to your local computer
 In the terminal window, change directories to where you want your coursework to live, for instance cd ~/Documents/. Then pull your repository onto your computer:
 
 ```
@@ -195,7 +195,7 @@ Enter into your repository, which is currently empty:
 cd geosf22_<pid>
 ```
 
-#### 5. Push your first work to your repository
+#### 6. Push your first work to your repository
 In the terminal, enter the following commands to create new content for your repository and send it to GitHub:
 
 ```
