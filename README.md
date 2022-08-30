@@ -33,9 +33,9 @@ To be able to submit homework, you have to first perform the "Setup at the begin
 After that, whenever you want to submit homework, you need to use 4 commands (ok, really 3, but the first one is a good habit). Execute all of them, each time you make changes to your home work:
 ```
 git pull
-## assuming your homwork was saved as HW1_pid.ipynb
-git add HW1_pid.ipynb
-git commit -m "HW1 submitted!!"
+## assuming your homwork was saved as E01_pid.ipynb
+git add E01_pid.ipynb
+git commit -m "Exercise 01 submitted!!"
 git push
 ```
 
